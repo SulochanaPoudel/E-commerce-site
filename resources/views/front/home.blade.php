@@ -5,39 +5,45 @@
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <!-- <img src="images/carousel-1.jpg" class="d-block w-100" alt=""> -->
+                <img src="images/carousel-1.jpg" class="d-block w-100" alt="">
 
                 <picture>
                     <source media="(max-width: 799px)" srcset="{{ asset('front-assets/images/carousel-1-m.jpg') }}" />
                     <source media="(min-width: 800px)" srcset="{{ asset('front-assets/images/carousel-1.jpg') }}" />
                     <img src="{{ asset('front-assets/images/carousel-1.jpg') }}" alt="" />
                 </picture>
+                <!-- <picture>
+                    <source media="(max-width:auto )" srcset="{{ asset('front-assets/images/statues.webp') }}" />
+                    <source media="(min-width: auto)" srcset="{{ asset('front-assets/images/statues.webp') }}" />
+                    <img src="{{ asset('front-assets/images/statues.webp') }}" alt="" />
+                </picture> -->
 
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3">
-                        <h1 class="display-4 text-white mb-3">Kids Fashion</h1>
-                        <p class="mx-md-5 px-5">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p>
-                        <a class="btn btn-outline-light py-2 px-4 mt-3" href="#">Shop Now</a>
+                        <h1 class="display-4 text-white mb-3">Buy Genuine Handicrafts | Crafts of Nepal Online</h1>
+                        <p class="mx-md-5 px-5">"We bring you ethically sourced 100% handmade Handicrafts from Nepal"</p>
+                        <!-- <h1 class="display-4 text-white mb-3">Crafting Stories, one piece at a time</h1>
+                        <a class="btn btn-outline-light py-2 px-4 mt-3" href="#">Shop Now</a> -->
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
                 
                <picture>
-                    <source media="(max-width: 799px)" srcset="{{ asset('front-assets/images/carousel-2-m.jpg') }}" />
-                    <source media="(min-width: 800px)" srcset="{{ asset('front-assets/images/carousel-2.jpg') }}" />
-                    <img src="{{ asset('front-assets/images/carousel-2.jpg') }}" alt="" />
+                    <source media="(max-width:auto )" srcset="{{ asset('front-assets/images/statues.webp') }}" />
+                    <source media="(min-width: auto)" srcset="{{ asset('front-assets/images/statues.webp') }}" />
+                    <img src="{{ asset('front-assets/images/statues.webp') }}" alt="" />
                 </picture>
 
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3">
-                        <h1 class="display-4 text-white mb-3">Womens Fashion</h1>
+                        <h1 class="display-4 text-white mb-3">Metal Statues</h1>
                         <p class="mx-md-5 px-5">Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam</p>
                         <a class="btn btn-outline-light py-2 px-4 mt-3" href="#">Shop Now</a>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item">
+            </div> -->
+            <!-- <div class="carousel-item">
 
                 <picture>
                     <source media="(max-width: 799px)" srcset="{{ asset('front-assets/images/carousel-3-m.jpg') }}" />
@@ -52,7 +58,7 @@
                         <a class="btn btn-outline-light py-2 px-4 mt-3" href="#">Shop Now</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

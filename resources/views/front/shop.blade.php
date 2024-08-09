@@ -56,7 +56,7 @@
                 </div>
 
                 <div class="sub-title mt-5">
-                    <h2>Brand</h3>
+                    <h2>Items</h3>
                 </div>
                 
                 <div class="card">
