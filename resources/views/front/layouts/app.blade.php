@@ -172,8 +172,8 @@
 				<div class="footer-card">
 					<h3>Get In Touch</h3>
 					<p>No dolore ipsum accusam no lorem. <br>
-					123 Street, New York, USA <br>
-					exampl@example.com <br>
+					123 Street, Kathmandu, Nepal<br>
+				Mountain Artisan @example.com <br>
 					000 000 0000</p>
 				</div>
 			</div>
